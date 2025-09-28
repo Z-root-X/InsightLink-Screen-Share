@@ -1,6 +1,11 @@
 # InsightLink: Real-Time Educational Screen Sharing
 
 <p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+  <img src="https://img.shields.io/badge/Python-3.7+-blue.svg" alt="Python 3.7+" />
+</p>
+
+<p align="center">
   <img src="logo.png" alt="InsightLink Logo" width="400"/>
 </p>
 
@@ -11,6 +16,8 @@
   <a href="#getting-started">Getting Started</a> •
   <a href="#usage">Usage</a> •
   <a href="#security-considerations">Security</a> •
+  <a href="#future-improvements">Future Improvements</a> •
+  <a href="#contributing">Contributing</a> •
   <a href="#license">License</a>
 </p>
 
@@ -49,8 +56,8 @@ Follow these instructions to get InsightLink running on your local network.
 
 1.  **Clone the repository to your local machine:**
     ```sh
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/Z-root-X/InsightLink-Screen-Share.git
+    cd InsightLink-Screen-Share
     ```
 
 2.  **Set up a Python virtual environment (recommended):**
@@ -99,6 +106,24 @@ Follow these instructions to get InsightLink running on your local network.
 - ⚠️ **No Encryption:** This application **does not encrypt** the screen sharing data. It is designed for use on trusted networks only (e.g., a private school LAN or a home network). **Do not use on public or untrusted Wi-Fi.**
 - **Input Validation:** The student application validates the IP address format to prevent errors.
 - **Denial-of-Service (DoS) Protection:** The student client limits the size of incoming image data to prevent a malicious server from crashing the application.
+
+## Future Improvements
+
+This project is in active development. Future enhancements may include:
+
+- **TLS/SSL Encryption:** Implementing full end-to-end encryption for all network traffic.
+- **Monitor Selection:** Allowing the teacher to choose which specific monitor or application window to share.
+- **Audio Streaming:** Adding support for broadcasting audio along with the video stream.
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
 ## License
 
